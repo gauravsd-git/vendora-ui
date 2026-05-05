@@ -148,7 +148,7 @@ export default function Stores() {
         </div>
       </div>
 
-      <div className="grid xl:grid-cols-3 gap-6">
+      <div className="grid xl:grid-cols gap-6">
         <div className="xl:col-span-2 bg-[#0f172a] border border-slate-800 rounded-3xl overflow-hidden">
           <div className="p-5 border-b border-slate-800 flex items-center justify-between">
             <h2 className="text-xl font-semibold">All Stores</h2>
