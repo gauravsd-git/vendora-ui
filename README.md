@@ -1,16 +1,77 @@
-# React + Vite
+# Vendora Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application for Vendora Multi-Store Retail Management System.
 
-Currently, two official plugins are available:
+Built using React, Vite, Tailwind CSS, Axios, and React Router DOM.  
+Provides a responsive and role-based dashboard interface for Admin, Store Admin, and Cashier users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Authentication
+- Login Page
+- Signup Page
+- JWT Token Storage
+- Protected Routes
+- Auto Redirect After Login
 
-## Expanding the ESLint configuration
+# Role Based Interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ADMIN
+- Dashboard
+- Stores Management
+- Profile
+
+# STORE_ADMIN
+- Dashboard
+- Products
+- Orders
+- Payments
+- Analytics
+- Cashier Management
+- Profile
+
+# CASHIER
+- Dashboard
+- Orders
+- Payments
+- Profile
+
+# Pages
+
+- Landing Page
+- Login Page
+- Signup Page
+- Dashboard
+- Products
+- Orders
+- Payments
+- Analytics
+- Stores
+- Cashiers
+- Profile
+
+---
+
+# Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
+- Lucide React
+
+---
+
+# Folder Structure
+
+```txt
+src/
+ ├── api/
+ ├── components/
+ ├── pages/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
